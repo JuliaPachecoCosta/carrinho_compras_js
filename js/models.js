@@ -1,4 +1,4 @@
-let modelsJson = [
+   let modelsJson = [
     // Objeto 1
     {
         id: 1,
@@ -8,24 +8,27 @@ let modelsJson = [
         sizes: ['1/72', '1/48', '1/32'],
         description: 'Caça utilizado nos primeiros anos de combate no pacífico pela marinha dos EUA'
     },
+
     // Objeto 2
     {
-        id: 2,
+        id: 1,
         name: 'Focke Wulf Fw190 A5',
         img: 'img/Fw190A5.png',
         price: [80.00, 150.00, 200.00],
         sizes: ['1/144', '1/48', '1/32'],
-        description: 'Caça de motor em estrela da Luftwaffe, temido em médias e baixas altitudes'
-    },
+        description: 'Caça de motor em estrelada Luftwaffe, temido em médias e baixas altitudes'
+    },    
+
     // Objeto 3
     {
         id: 3,
-        name: 'ki 61 - Hien',
-        img: 'img/ki61Hien.png',
+        name: 'Ki 61 - Hien',
+        img: 'img/Ki61Hien.png',
         price: [100.00, 150.00, 200.00],
         sizes: ['1/72', '1/48', '1/32'],
-        description: 'Caça fabricado pela Kawasaki para o exército japonês, com motor em linha'
-    },
+        description: 'Caça fabricado pela Kawasaki para o exercito japonês, com motor em linha'
+    },    
+
     // Objeto 4
     {
         id: 4,
@@ -34,16 +37,18 @@ let modelsJson = [
         price: [100.00, 150.00, 200.00],
         sizes: ['1/72', '1/48', '1/32'],
         description: 'Famoso caça da Messerschmitt, voado pelos maiores ases da Luftwaffe, a versão G foi a mais produzida'
-    },
+    },    
+
     // Objeto 5
     {
         id: 5,
-        name: 'p47 D - Thunderbolt',
-        img: 'img/p47D.png',
+        name: 'P47 D - Thunderbolt',
+        img: 'img/P47D.png',
         price: [100.00, 150.00, 200.00],
         sizes: ['1/72', '1/48', '1/32'],
-        description: 'Caça bombardeiro de fabricação americana utilizado pela FAB'
-    },
+        description: 'Caça bombardeio de fabricação americana utilizado pela FAB'
+    },    
+
     // Objeto 6
     {
         id: 6,
@@ -51,8 +56,9 @@ let modelsJson = [
         img: 'img/P51D.png',
         price: [100.00, 150.00, 200.00],
         sizes: ['1/72', '1/48', '1/32'],
-        description: 'O mais conhecido caça americano, importante escolta para os bombadeiros diurnos'
-    },
+        description: 'O mais conhecido caça americano, importante escolta para os bombardeiros diurnos'
+    },    
+
     // Objeto 7
     {
         id: 7,
@@ -61,7 +67,8 @@ let modelsJson = [
         price: [100.00, 150.00, 200.00],
         sizes: ['1/72', '1/48', '1/32'],
         description: 'O mais famoso caça britânico, utilizado em toda a guerra'
-    },
+    },    
+
     // Objeto 8
     {
         id: 8,
@@ -69,6 +76,6 @@ let modelsJson = [
         img: 'img/Zero.png',
         price: [100.00, 150.00, 200.00],
         sizes: ['1/72', '1/48', '1/32'],
-        description: 'O mais famoso caça da marinha japonesa, terror do pacífico nos anos iniciais da guerra'
-    },
-];
+        description: 'O mais famoso caça da marinha japonesa, terror do pacífico nos anos inicias da guerra'
+    },    
+]
